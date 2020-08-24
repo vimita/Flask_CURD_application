@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% include 'header.html' %}
+{% block title %} Home {% endblock %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CURD App</title>
+</head>
+<body>
+<div class="container text-center">
+        <form action="/admin">
+            <input type="submit" class="btn btn-primary" value="Login As Admin" />
+        </form>
+        <div style="margin:5px;"></div>
+        <form action="/UserHome">
+            <input type="submit" class="btn btn-primary" value="Login As User" />
+        </form>
+    </div>
+</body>
+</html>
+
+{% endblock %}
