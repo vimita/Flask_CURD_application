@@ -6,11 +6,13 @@ Flask CURD operation
         Python -m venv ./venv
     To activate the environment in windows,
       .\venv\Scripts\activate
+ \n 
 2 Install python libraries
       Pip list
       Pip install flask
       Pip install Flask-SQLAlchemy
       Pip install SQLAlchemy
+      
 3 Run the app.py file
 
  [ Note: When you first time run app.py file, 
