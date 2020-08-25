@@ -13,12 +13,17 @@ Flask CURD operation
        Pip install Flask-SQLAlchemy
        Pip install SQLAlchemy
       
-3 Run the app.py file\n
+3 Run the app.py file
 
  [ Note: When you first time run app.py file, 
+ 
         before you run the application run you database script in your virtual environment,
+        
         >> python
+        
         >> from app import db
+        
         >> db.create_all()
+        
         ]
 
